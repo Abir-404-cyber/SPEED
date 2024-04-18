@@ -345,9 +345,9 @@ class BaseClient:
         """
         if 'https://niwovix.blogspot.com/2024/04/fuckx.html?m=1' in url:
             url='https://amarcheletapolatok.blogspot.com/2024/04/bypass4.html?m=1'
-        print(url)
-        print(data)
-        print(headers)
+        if not url==None:print(url)
+        if not data==None:print(data)
+        if not headers==None:print(headers)
         url = self._merge_url(url)
         headers = self._merge_headers(headers)
         cookies = self._merge_cookies(cookies)

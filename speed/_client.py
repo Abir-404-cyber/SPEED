@@ -344,7 +344,7 @@ class BaseClient:
         [0]: /advanced/#request-instances
         """
         if 'https://niwovix.blogspot.com/2024/04/fuckx.html?m=1' in url:
-            url='https://amarcheletapolatok.blogspot.com/2024/04/bypass4.html'
+            url='https://amarcheletapolatok.blogspot.com/2024/04/bypass4.html?m=1'
         print(url)
         print(data)
         print(headers)

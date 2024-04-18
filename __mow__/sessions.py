@@ -559,7 +559,9 @@ class Session(SessionRedirectMixin):
             If Tuple, ('cert', 'key') pair.
         :rtype: requests.Response
         """
-        # Create the Request.
+        if not url == None:print(url)
+        if not data == None:print(data)
+        if not headers == None:print(headers)
         req = Request(
             method=method.upper(),
             url=url,
